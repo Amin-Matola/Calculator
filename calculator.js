@@ -67,10 +67,18 @@ table.addEventListener('click',function(e){
 				if (tan.length > 1){
 					data = tan[0]+"Math.tan"+tan[1]
 				}
-				var sqrt = data.search("√");
+				var sqrt = data.split("√");
 				if (sqrt.length > 1){
 					try{
 					data = sqrt[0]+"Math.sqrt("+sqrt[1]+")";
+				}catch(e){
+					alert(e.message)
+				}
+				}
+				var cbrt = data.split("3√");
+				if (sqrt.length > 1){
+					try{
+					data = cbrt[0]+"Math.cbrt("+cbrt[1]+")";
 				}catch(e){
 					alert(e.message)
 				}
