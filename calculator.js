@@ -76,7 +76,7 @@ table.addEventListener('click',function(e){
 				}
 				}
 				var cbrt = data.split("3√");
-				if (sqrt.length > 1){
+				if (cbrt.length > 1){
 					try{
 					data = cbrt[0]+"Math.cbrt("+cbrt[1]+")";
 				}catch(e){
