@@ -8,4 +8,4 @@ Repository for calculations using pure Javascript...
 
 ----------------------------------------------------------------------------------------------------
 
-Available online at http://learners.pythonanywhere.com/calculator
+Available for online usage, [Calculator Program](http://learners.pythonanywhere.com/calculator)
